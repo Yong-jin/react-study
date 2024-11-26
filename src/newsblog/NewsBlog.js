@@ -49,7 +49,7 @@ function NewsBlog() {
                 setNews(temp);
             }}>제목 변경</button>
             {
-                modalFlag == true ? <Modal /> : null
+                modalFlag == true ? <Modal news={news} setNews={setNews} bgColor={'lightcyan'} /> : null
             }
         </div>
     )
