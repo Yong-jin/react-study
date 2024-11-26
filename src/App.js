@@ -7,6 +7,7 @@ import Props01 from './components/Props01';
 import Practice001 from './practice/Practice001';
 import Props02 from './components/Props02';
 import Quiz002 from './practice/Quiz002';
+import NewsBlog from './newsblog/NewsBlog';
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
   // return <State02/>;
   // return <Props01/>;
   //return <Practice001/>;
-  return <Props02 />;
+  // return <Props02 />;
   // return <Quiz002 />;
+  return <NewsBlog/>;
 }
 
 export default App;
