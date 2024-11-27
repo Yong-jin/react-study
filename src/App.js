@@ -21,9 +21,9 @@ function App() {
   //return <Practice001/>;
   // return <Props02 />;
   // return <Quiz002 />;
-  //return <NewsBlog/>;
+  return <NewsBlog/>;
   //return <Quiz003/>;
-  return <Practice002/>;
+  //return <Practice002/>;
 }
 
 export default App;
