@@ -1,0 +1,7 @@
+
+.main-bg {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./banner_bg.jpg');
+}
