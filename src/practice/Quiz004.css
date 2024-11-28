@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    display: inline-block;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-black {
+    background-color: black;
+}
