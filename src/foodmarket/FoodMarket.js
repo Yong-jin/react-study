@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 
 import Home from './pages/Home.js';
+import Detail from './pages/Detail.js';
 
 function FoodMarket() {
 
@@ -41,15 +42,15 @@ function FoodMarket() {
                 package.json
                 "homepage":"/newurlpath"  상세경로
             */}
-            
-            
 
             <Routes>
                 <Route path="/" element={<Home foods={foods} />}/>
-                <Route path="/detail" element={<h1>detail page</h1>} />
+                {/* <Route path="/detail" element={<h1>detail page</h1>} /> */}
                 <Route path="/info" element={<h1>info page</h1>} />
+                {/* <Route path="/detail/:index" element={ <Detail foods={foods}/> } /> */}
+                <Route path="/detail/:id" element={ <Detail foods={foods}/> } />
+                <Route path="*" element={<div>찾을 수 없습니다. 주소 확인하세요.</div>}/>
             </Routes>
-
 
             {/*
             <Container>
